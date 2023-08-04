@@ -1,0 +1,24 @@
+<div class="crear-usuario-container">
+  <h2>Crear Usuario</h2>
+  <form (ngSubmit)="crearUsuario()">
+    <label for="name">Nombre:</label>
+    <input type="text" id="name" [(ngModel)]="usuario.name" name="name" required>
+
+    <label for="address">Dirección:</label>
+    <input type="text" id="address" [(ngModel)]="usuario.address" name="address" required>
+
+    <label for="cellphone">Teléfono:</label>
+    <input type="text" id="cellphone" [(ngModel)]="usuario.cellphone" name="cellphone" required>
+
+    <label for="time">time:</label>
+    <input type="text" id="time" [(ngModel)]="usuario.time" name="time" required>
+
+    <label for="mac_version">mac_version:</label>
+    <input type="text" id="mac_version" [(ngModel)]="usuario.mac_version" name="mac_version" required>
+
+    <label for="version">version:</label>
+    <input type="text" id="version" [(ngModel)]="usuario.version" name="version" required>
+
+    <button type="submit">Crear</button>
+  </form>
+</div>

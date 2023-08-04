@@ -1,0 +1,28 @@
+.crear-usuario-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+
+  h2 {
+    text-align: center;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+
+    label {
+      margin-top: 10px;
+    }
+
+    input {
+      margin-top: 5px;
+      padding: 5px;
+    }
+
+    button {
+      margin-top: 15px;
+      align-self: flex-end;
+    }
+  }
+}

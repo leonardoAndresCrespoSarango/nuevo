@@ -1,0 +1,66 @@
+/* Establece el gradiente de fondo para la página */
+.email-form-container {
+  background: linear-gradient(to bottom right, #3498db, #e74c3c);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilos para el formulario de email */
+.email-form {
+  max-width: 500px; /* Aumenta el ancho máximo para hacer el formulario más grande */
+  padding: 30px; /* Aumenta el espaciado interno para hacer el formulario más grande */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.9);
+
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+
+    label {
+      display: block;
+      font-weight: bold;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+  }
+
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+}
+
+/* Resto de tus estilos personalizados para las notificaciones */
+.toast-custom {
+  background-color: #4caf50;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 4px;
+  padding: 12px 20px;
+}
+
+.toast-custom-warning {
+  background-color: #ff9800;
+}
+
+.toast-custom-error {
+  background-color: #f44336;
+}
